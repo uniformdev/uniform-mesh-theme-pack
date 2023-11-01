@@ -1,0 +1,122 @@
+{
+  "type": "theme-pack",
+  "displayName": "Theme Pack (custom)",
+  "logoIconUrl": "http://localhost:3000/badge.svg",
+  "badgeIconUrl": "http://localhost:3000/badge.svg",
+  "category": "starters",
+  "baseLocationUrl": "http://localhost:3000",
+  "locations": {
+    "install": {
+      "description": [
+        "This integration installs special theme extensions for Uniform Canvas extensions built for the Theme Pack.",
+        "This integration does not install the actual components of the starter kit. Those must be installed via 'uniform new' using the CLI, please refer to the documentation."
+      ],
+      "informationUrl": "https://docs.uniform.app/docs/get-started/component-starter-kit"
+    },
+    "settings": {
+      "url": "/settings"
+    },
+    "canvas": {
+      "parameterTypes": [
+        {
+          "type": "tp-set-up-theme-parameter",
+          "displayName": "Theme Pack - Set Up Theme",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-title-style-parameter",
+          "displayName": "Theme Pack - Title Style",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-vertical-align-parameter",
+          "displayName": "Theme Pack - Vertical Align",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-horizontal-align-parameter",
+          "displayName": "Theme Pack - Horizontal Align",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-button-style-parameter",
+          "displayName": "Theme Pack - Button Style",
+          "editorUrl": "/editor",
+          "configureUrl": "/config?showRequired=true",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-badge-style-parameter",
+          "displayName": "Theme Pack - Badge Style",
+          "editorUrl": "/editor",
+          "configureUrl": "/config?showRequired=true",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-column-width-parameter",
+          "displayName": "Theme Pack - Column Width",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-background-type-parameter",
+          "displayName": "Theme Pack - Background Type",
+          "editorUrl": "/editor",
+          "configureUrl": "/config?showRequired=true",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-items-order-parameter",
+          "displayName": "Theme Pack - Items Order",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-color-style-parameter",
+          "displayName": "Theme Pack - Color Style",
+          "editorUrl": "/editor",
+          "configureUrl": "/config?showRequired=true",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-size-parameter",
+          "displayName": "Theme Pack - Size",
+          "editorUrl": "/editor",
+          "configureUrl": "/config/size-param",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-opacity-parameter",
+          "displayName": "Theme Pack - Opacity",
+          "editorUrl": "/editor",
+          "configureUrl": "/config/opacity-param",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-slider-parameter",
+          "displayName": "Theme Pack - Slider",
+          "editorUrl": "/editor",
+          "configureUrl": "/config/slider-param",
+          "renderableInPropertyPanel": true
+        },
+        {
+          "type": "tp-play-animation-parameter",
+          "displayName": "Theme Pack - Play Animation Button",
+          "editorUrl": "/editor",
+          "configureUrl": "/config",
+          "renderableInPropertyPanel": true
+        }
+      ]
+    }
+  }
+}

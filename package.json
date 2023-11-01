@@ -1,0 +1,28 @@
+{
+  "name": "@uniformdev/theme-pack",
+  "version": "19.8.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@uniformdev/design-system": "19.8.0",
+    "@uniformdev/mesh-sdk-react": "19.8.0",
+    "next": "^14.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-slider": "^2.0.5",
+    "react-use": "17.4.0"
+  },
+  "packageManager": "pnpm@8.5.1",
+  "engines": {
+    "node": ">=18.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.10",
+    "@types/react-slider": "^1.3.1",
+    "typescript": "5.2.2"
+  }
+}

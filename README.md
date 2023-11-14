@@ -1,5 +1,7 @@
 # Theme Pack Mesh app for Uniform
 
+> ⚠️ This codebase doesn't support Node.js 21 or later yet, `npm run build` will break.
+
 This mesh app extends Uniform Canvas UI with the support for themes and new custom parameters that facilitate the configuration of visual aspects - header style, button style, column size (slider), etc.
 
 ![alt text](public/theme-pack-parameters.png "Theme Pack parameters")

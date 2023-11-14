@@ -1,6 +1,6 @@
 {
   "name": "@uniformdev/theme-pack",
-  "version": "19.8.0",
+  "version": "19.77.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,9 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@uniformdev/design-system": "19.8.0",
-    "@uniformdev/mesh-sdk-react": "19.8.0",
-    "next": "^14.0.1",
+    "@uniformdev/design-system": "19.77.0",
+    "@uniformdev/mesh-sdk-react": "19.77.0",
+    "next": "^14.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-slider": "^2.0.5",
